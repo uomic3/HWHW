@@ -1,0 +1,117 @@
+.cardContainer {
+  margin-bottom: 15px;
+}
+.card {
+  margin: 0 auto;
+}
+.btn btn-primary
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: rgb(182, 220, 235);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: salmon;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Profile info */
+
+.intro-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 15px;
+  align-items: center;
+  margin: 200px 10px 30px 10px;
+  /* same as below */
+  /* margin-top: 0;
+  margin-right: 10px;
+  margin-bottom: 0;
+  margin-left: 10px; */
+}
+
+.intro-container > .profile {
+  grid-column: 1 / span 6;
+  margin-bottom: 0;
+}
+
+.intro-container > .intro {
+  grid-column: 7 / span 6;
+  padding: 0 10px;
+}
+
+/* footer */
+footer {
+  position: absolute;
+  width: 308px;
+  height: 30px;
+  left: 160px;
+  top: 2950px;
+  padding-bottom: 2em;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #000000;
+}
+/* Social Media goes here */
+.linkedin {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 1015px;
+  top: 2945px;
+}
+.behance {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1060px;
+  top: 2943px;
+}
+.dribbble {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 965px;
+  top: 2946px;
+}
+
+.github {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 1120px;
+  top: 2946px;
+}
+.me {
+  width: 400px;
+  height: 600px;
+}
